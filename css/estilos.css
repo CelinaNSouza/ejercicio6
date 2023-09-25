@@ -1,0 +1,17 @@
+/* estilos.css */
+
+/* Establecer la fuente genérica sans-serif para el título */
+h1 {
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+
+/* Agregar una línea por debajo del título */
+h1::after {
+    content: "";
+    display: block;
+    border-bottom: 1px solid black; /* Puedes ajustar el color y el grosor de la línea según tus preferencias */
+    margin-top: 5px; /* Espacio entre el título y la línea */
+   
+}
+
